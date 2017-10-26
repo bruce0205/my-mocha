@@ -6,4 +6,9 @@ describe('Array', () =>{
 			assert.equal(-1, [1,2,3].indexOf(0));	
 		});
 	});
+	describe('#length()', ()=>{
+		it('should return 3 when has three element', () => {
+			assert.equal(3, [1,2,3].length);
+		});
+	});
 });
