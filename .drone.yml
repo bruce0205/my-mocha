@@ -3,3 +3,5 @@ pipeline:
     image: mhart/alpine-node:8.9
     commands:
       - node -v
+      - npm install
+      - npm test
