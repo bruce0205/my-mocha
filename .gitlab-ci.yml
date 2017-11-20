@@ -1,0 +1,13 @@
+image: node:8
+
+stages:
+  - test
+
+test:
+  stage: test
+  before_script:
+    - npm install
+  script:
+    - npm test
+  except:
+    - tags
