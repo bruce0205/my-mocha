@@ -9,6 +9,6 @@ test:
     - npm install
   script:
     - npm test
-    - echo "${environment}""
+    - echo "${environment}"
   except:
     - tags
